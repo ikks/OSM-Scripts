@@ -1,0 +1,36 @@
+
+En este repositorio se está desarrollando un geocoder
+para Colombia.  
+
+For english speakers, please take a look at the end
+
+El geocoder tendrá dos funcionalidades :
+ * Georeferencia : Dada una dirección, se encontrará
+ la latitud, longitud de la misma.
+ * Georeferencia Inversa : Dada una latitud, longitud
+ se ofrecerá la dirección del punto.
+
+= Acerca De =
+Este Geocoder comienza a ser creado por la comunidad 
+openstreetmap Colombia, puede encontrarla vía
+  http://lista.openstreetmap.co
+  
+= Objetivo =
+Crear un geocodificador directo e inverso
+
+== Georeferencia ==
+Se requiere módulos para :
+ * Contar con una estructura que permita efectuar búsquedas
+ a partir de una normalización que se establezca.
+ * Dada una cadena con diversas estructuras, convertirla a 
+ una estructura que pueda ser buscada en la estructura interna
+ definida para direcciones.
+== Georeferencia Inversa ==
+
+= Enlaces =
+
+= English Spoken People =
+For now the core team speaks spanish, if you want
+to help or information about the state of the
+Geocoder, just drop us an email to 
+talk-co@openstreetmap.org
